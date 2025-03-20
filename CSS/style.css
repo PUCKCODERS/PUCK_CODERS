@@ -13,6 +13,21 @@ html {
 }
 /* Default Styles */
 
+/* Custom Scrollbar*/
+body::-webkit-scrollbar {
+  width: 1.5rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(#011af7, #0195f7);
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #b3b3b3;
+}
+
+/* End of Custom Scrollbar*/
+
 /* Container */
 .container {
   width: 100%;
@@ -78,6 +93,12 @@ html {
   color: #092627;
   text-shadow: 0 0.7rem rgba(206, 206, 206, 0.3);
 }
+
+.multi-page-nav .logo span {
+  color: #092627;
+  text-shadow: 0 0.7rem rgba(206, 206, 206, 0.3);
+}
+
 /* Logo */
 /* Nav Items */
 .nav-items {
@@ -121,6 +142,11 @@ html {
 }
 
 .sticky .nav-link {
+  color: #092627;
+  text-shadow: 0 0.7rem rgba(206, 206, 206, 0.3);
+}
+
+.multi-page-nav .nav-link {
   color: #092627;
   text-shadow: 0 0.7rem rgba(206, 206, 206, 0.3);
 }
@@ -559,6 +585,11 @@ html {
 }
 
 .sticky .nav-btn {
+  background: linear-gradient(to left, #0195f7, #011af7);
+  color: #fff;
+}
+
+.multi-page-nav .nav-item .nav-btn {
   background: linear-gradient(to left, #0195f7, #011af7);
   color: #fff;
 }
@@ -1014,7 +1045,7 @@ header {
 
 .templates::before {
   content: "";
-  width: 80rem;
+  width: 75rem;
   height: 80rem;
   background: linear-gradient(to bottom, transparent, #2f324d, #2f324d);
   z-index: 4;
@@ -1365,18 +1396,7 @@ footer {
   font-family: "Mooli", cursive;
   font-weight: bold;
   font-size: 2rem;
-  color: #fff;
-  text-shadow: 0.5rem 0.3rem 1rem #000;
-  transform: translateY(0.3rem);
-}
-
-.footer-bottom a:hover {
-  background-color: #a8a9aa;
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-  color: #fff;
-  border-radius: 2.5rem;
-  transform: scale(2.2);
-  box-shadow: 6px 3px 9px #2f324d;
+  color: #394353;
 }
 
 /* End of Footer */
