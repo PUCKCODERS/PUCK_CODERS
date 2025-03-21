@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PUCKCODERS</title>
     <link rel="stylesheet" href="/CSS/style.css" />
-    <link rel="stylesheet" href="/CSS/clients.css" />
+    <link rel="stylesheet" href="/CSS/contact.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -23,22 +23,30 @@
     />
   </head>
   <body>
-    <!-- Container -->
+    <!-- Container-->
     <div class="container" style="background-color: #e6e6e6">
       <!-- Navegation -->
       <nav class="navbar multi-page-nav">
         <!-- Logo -->
-        <a href="index.html">
+        <a href="../index.html">
           <div class="logo">
             <span>CODIGO Y <span>CREAR</span></span>
             <span>PLANTILLAS</span>
           </div>
         </a>
         <!-- End of Logo -->
+
+        <!-- Menu Icon -->
+        <div class="menu-icon icon-pages">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+        </div>
+        <!-- End of Menu Icon -->
+
         <!-- Nav Items -->
         <ul class="nav-items">
           <li class="nav-item">
-            <a href="/index.html" class="nav-link">INICIO</a>
+            <a href="../index.html" class="nav-link">INICIO</a>
             <!-- Dropdown 1 -->
             <div class="dropdown dropdown-1">
               <div class="dropdown-1-left">
@@ -148,8 +156,9 @@
             </div>
             <!-- End of Dropdown 1 -->
           </li>
+
           <li class="nav-item">
-            <a href="/HTML/clients.html" class="nav-link">CLIENTES</a>
+            <a href="clients.html" class="nav-link">CLIENTES</a>
             <!-- Dropdown 2 -->
             <div class="dropdown dropdown-2">
               <div class="clients-item">
@@ -188,7 +197,7 @@
             <!-- End of Dropdown 2 -->
           </li>
           <li class="nav-item">
-            <a href="/HTML/products.html" class="nav-link">PRODUCTOS</a>
+            <a href="products.html" class="nav-link">PRODUCTOS</a>
             <!-- Dropdown 3 -->
             <div class="dropdown dropdown-3">
               <div class="products">
@@ -233,7 +242,7 @@
             <!-- End of Dropdown 3 -->
           </li>
           <li class="nav-item">
-            <a href="/HTML/contact.html" class="nav-link">CONTACTO</a>
+            <a href="contact.html" class="nav-link">CONTACTO</a>
             <!-- Dropdown 4 -->
             <div class="dropdown dropdown-4">
               <div class="contact-options">
@@ -267,7 +276,7 @@
             <!-- End of Dropdown 4 -->
           </li>
           <li class="nav-item">
-            <a href="/HTML/account.html" class="nav-link">CUENTA</a>
+            <a href="account.html" class="nav-link">CUENTA</a>
             <!-- Dropdown 5 -->
             <div class="dropdown dropdown-5">
               <form class="account-form">
@@ -285,300 +294,64 @@
             </div>
             <!-- End of Dropdown 5 -->
           </li>
-          <li class="nav-item">
-            <a href="/HTML/pricing.html" class="nav-btn">PRECIOS</a>
+          <li class="nav-item no-triangle">
+            <a href="pricing.html" class="nav-btn">PRECIOS</a>
           </li>
         </ul>
-        <!-- Nav Items -->
+        <!-- End of Nav Items -->
       </nav>
-      <!-- Navegation -->
-      <!-- Testimonials -->
-      <section class="testimonials">
-        <div class="testimonials-header">
-          <h1>LO QUE LOS CLIENTES DICEN SOBRE NOSOTROS</h1>
-          <div class="stars">
-            <span class="material-symbols-rounded"> hotel_class </span>
-            <div class="trustpilot">
-              <span>CONFIANZA</span>
-              <div>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-              </div>
-            </div>
-          </div>
-        </div>
+      <!-- End of Navegation -->
 
-        <div class="testimonials-wrapper">
-          <div class="testimonial">
-            <div class="testimonial-top">
-              <img src="/images/client/client1.jpg" />
-              <span>JONATHAN RODRIGUEZ</span>
-            </div>
-            <div class="testimonial-body">
-              <div>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-              </div>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt fugit culpa corrupti dolor earum dicta rerum eligendi
-                doloribus, quo natus suscipit obcaecati in alias beatae
-                sapiente, at totam hic adipisci?
-              </p>
-            </div>
+      <!-- Contact -->
+      <section class="contact">
+        <div class="contact-wrapper">
+          <div class="contact-circle"></div>
+          <div class="contact-header">
+            <h1>CONTÁCTANOS</h1>
+            <h3>SI TIENE ALGUNA PREGUNTA, NO DUDE Y PÓNGASE EN CONTACTO</h3>
           </div>
-          <div class="testimonial">
-            <div class="testimonial-top">
-              <img src="/images/client/client1.jpg" />
-              <span>JONATHAN RODRIGUEZ</span>
+          <div class="contact-content">
+            <div class="contact-form-wrapper">
+              <span class="material-symbols-rounded"> group </span>
+              <h4>CONTACTE AL EQUIPO DE SOPORTE</h4>
+              <p>SI TIENES ALGUNA PREGUNTA ENVÍANOS UN CORREO ELECTRÓNICO</p>
+              <form>
+                <input type="text" placeholder="NOMBRE" />
+                <input type="email" placeholder="CORREO ELECTRÓNICO" />
+                <input type="text" placeholder="ASUNTO" />
+                <textarea placeholder="TU MENSAJE"></textarea>
+                <button type="button">ENVIAR MENSAJE</button>
+              </form>
             </div>
-            <div class="testimonial-body">
-              <div>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-              </div>
-              <p>Lorem ipsum dolor sit amet.</p>
+            <div class="contact-support-wrapper">
+              <span class="material-symbols-rounded"> construction </span>
+              <h4>APOYO TÉCNICO</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt fugit culpa corrupti dolor earum dicta rerum eligendi
-                doloribus, quo natus suscipit obcaecati in alias beatae
-                sapiente, at totam hic adipisci?
+                SI NECESITAS AYUDA, PUEDES CHATEAR DIRECTAMENTE CON NUESTRO
+                EQUIPO DE SOPORTE
               </p>
-            </div>
-          </div>
-          <div class="testimonial">
-            <div class="testimonial-top">
-              <img src="/images/client/client1.jpg" />
-              <span>JONATHAN RODRIGUEZ</span>
-            </div>
-            <div class="testimonial-body">
-              <div>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
+              <button type="button" class="chat-btn">CHAT CON SOPORTE</button>
+              <div class="support-list">
+                <button type="button" class="support-list-btn">
+                  PREGUNTA A LA COMUNIDAD
+                </button>
+                <button type="button" class="support-list-btn">
+                  VER DOCUMENTACIÓN
+                </button>
+                <button type="button" class="support-list-btn">
+                  ÚNETE AL GRUPO DE FACEBOOK
+                </button>
+                <button type="button" class="support-list-btn">
+                  EXPLORA EL BLOG
+                </button>
               </div>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt fugit culpa corrupti dolor earum dicta rerum eligendi
-                doloribus, quo natus suscipit obcaecati in alias beatae
-                sapiente, at totam hic adipisci?
-              </p>
-            </div>
-          </div>
-          <div class="testimonial">
-            <div class="testimonial-top">
-              <img src="/images/client/client1.jpg" />
-              <span>JONATHAN RODRIGUEZ</span>
-            </div>
-            <div class="testimonial-body">
-              <div>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-              </div>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt fugit culpa corrupti dolor earum dicta rerum eligendi
-                doloribus, quo natus suscipit obcaecati in alias beatae
-                sapiente, at totam hic adipisci?
-              </p>
-            </div>
-          </div>
-          <div class="testimonial">
-            <div class="testimonial-top">
-              <img src="/images/client/client1.jpg" />
-              <span>JONATHAN RODRIGUEZ</span>
-            </div>
-            <div class="testimonial-body">
-              <div>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-              </div>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt fugit culpa corrupti dolor earum dicta rerum eligendi
-                doloribus, quo natus suscipit obcaecati in alias beatae
-                sapiente, at totam hic adipisci?
-              </p>
-            </div>
-          </div>
-          <div class="testimonial">
-            <div class="testimonial-top">
-              <img src="/images/client/client1.jpg" />
-              <span>JONATHAN RODRIGUEZ</span>
-            </div>
-            <div class="testimonial-body">
-              <div>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-              </div>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt fugit culpa corrupti dolor earum dicta rerum eligendi
-                doloribus, quo natus suscipit obcaecati in alias beatae
-                sapiente, at totam hic adipisci?
-              </p>
-            </div>
-          </div>
-          <div class="testimonial">
-            <div class="testimonial-top">
-              <img src="/images/client/client1.jpg" />
-              <span>JONATHAN RODRIGUEZ</span>
-            </div>
-            <div class="testimonial-body">
-              <div>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-              </div>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt fugit culpa corrupti dolor earum dicta rerum eligendi
-                doloribus, quo natus suscipit obcaecati in alias beatae
-                sapiente, at totam hic adipisci?
-              </p>
-            </div>
-          </div>
-          <div class="testimonial">
-            <div class="testimonial-top">
-              <img src="/images/client/client1.jpg" />
-              <span>JONATHAN RODRIGUEZ</span>
-            </div>
-            <div class="testimonial-body">
-              <div>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-              </div>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt fugit culpa corrupti dolor earum dicta rerum eligendi
-                doloribus, quo natus suscipit obcaecati in alias beatae
-                sapiente, at totam hic adipisci?
-              </p>
-            </div>
-          </div>
-          <div class="testimonial">
-            <div class="testimonial-top">
-              <img src="/images/client/client1.jpg" />
-              <span>JONATHAN RODRIGUEZ</span>
-            </div>
-            <div class="testimonial-body">
-              <div>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-              </div>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt fugit culpa corrupti dolor earum dicta rerum eligendi
-                doloribus, quo natus suscipit obcaecati in alias beatae
-                sapiente, at totam hic adipisci?
-              </p>
-            </div>
-          </div>
-          <div class="testimonial">
-            <div class="testimonial-top">
-              <img src="/images/client/client1.jpg" />
-              <span>JONATHAN RODRIGUEZ</span>
-            </div>
-            <div class="testimonial-body">
-              <div>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-              </div>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt fugit culpa corrupti dolor earum dicta rerum eligendi
-                doloribus, quo natus suscipit obcaecati in alias beatae
-                sapiente, at totam hic adipisci?
-              </p>
-            </div>
-          </div>
-          <div class="testimonial">
-            <div class="testimonial-top">
-              <img src="/images/client/client1.jpg" />
-              <span>JONATHAN RODRIGUEZ</span>
-            </div>
-            <div class="testimonial-body">
-              <div>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-              </div>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt fugit culpa corrupti dolor earum dicta rerum eligendi
-                doloribus, quo natus suscipit obcaecati in alias beatae
-                sapiente, at totam hic adipisci?
-              </p>
-            </div>
-          </div>
-          <div class="testimonial">
-            <div class="testimonial-top">
-              <img src="/images/client/client1.jpg" />
-              <span>JONATHAN RODRIGUEZ</span>
-            </div>
-            <div class="testimonial-body">
-              <div>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-                <span class="material-symbols-rounded"> star </span>
-              </div>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt fugit culpa corrupti dolor earum dicta rerum eligendi
-                doloribus, quo natus suscipit obcaecati in alias beatae
-                sapiente, at totam hic adipisci?
-              </p>
             </div>
           </div>
         </div>
       </section>
-      <!-- End of Testimonials -->
+
+      <!-- End of Contact -->
+
       <!-- Footer -->
       <footer>
         <div class="footer-content">
@@ -632,7 +405,7 @@
       </footer>
       <!-- End of Footer -->
     </div>
-    <!-- Container -->
+    <!-- End of Container-->
     <script src="/JS/script.js"></script>
   </body>
 </html>

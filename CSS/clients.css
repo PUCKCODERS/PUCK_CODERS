@@ -73,9 +73,10 @@ body::-webkit-scrollbar-thumb {
   width: 30rem;
   height: 40%;
   margin: 2rem;
+
   border-radius: 1rem;
   padding: 2rem;
-  box-shadow: 12px 6px 18px #000;
+  box-shadow: 9px 8px 6px #556f8d;
   transition: transform 0.3s;
 }
 
@@ -90,11 +91,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .testimonial-top img {
-  width: 6rem;
+  width: 7rem;
   height: 6rem;
+  border: 1px solid #000;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 6px 3px 9px #000;
+  box-shadow: 5px 4px 2px #b5caca;
 }
 
 .testimonial-top span {
