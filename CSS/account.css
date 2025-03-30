@@ -162,3 +162,13 @@ body::-webkit-scrollbar-thumb {
   transform: translateY(-0.3rem);
 }
 /* End of Account */
+
+/* RESPONSIVE */
+
+/* 1920 X 1080 */
+@media (min-width: 1920px) {
+  .account-circle {
+    bottom: 15%;
+    left: 33%;
+  }
+}

@@ -133,3 +133,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* End of Testimonials*/
+/* 1920 X 1080 */
+@media (min-width: 1920px) {
+  .testimonials {
+    width: 100%;
+  }
+}
+
+/* 1600 X 900 */
+@media (min-width: 1600px) {
+  .testimonials-wrapper {
+    width: 100%;
+  }
+}

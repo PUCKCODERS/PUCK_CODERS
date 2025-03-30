@@ -199,3 +199,13 @@ body::-webkit-scrollbar-thumb {
   transition: transform 0.3s;
 }
 /* End of Contact */
+
+/* RESPONSIVE */
+
+/* 1920 X 1080 */
+@media (min-width: 1920px) {
+  .contact-circle {
+    bottom: 10%;
+    left: 18%;
+  }
+}
