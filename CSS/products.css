@@ -264,13 +264,3 @@ body::-webkit-scrollbar-thumb {
   opacity: 0.9;
 }
 /* End of Products */
-
-/* 1600 X 900 */
-@media (min-width: 1600px) {
-  .products-content {
-    width: 90%;
-  }
-  .promo-content h1 {
-    font-size: 3rem;
-  }
-}

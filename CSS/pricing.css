@@ -200,22 +200,3 @@ body::-webkit-scrollbar-thumb {
 /* End of Pricing*/
 
 /* RESPONSIVE */
-
-/* 1920 X 1080 */
-@media (min-width: 1920px) {
-  .pricing-wrapper {
-    width: 100%;
-  }
-  .pricing-rectangle {
-    top: 23%;
-    left: 12%;
-  }
-  .pricing-small-circle {
-    top: 20%;
-    right: 10%;
-  }
-  .pricing-large-circle {
-    bottom: 19%;
-    right: 10%;
-  }
-}
